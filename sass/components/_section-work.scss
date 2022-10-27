@@ -1,0 +1,59 @@
+/* ___________________________________SECTION OF WORK___________________________________ */
+
+.section-work {
+  padding-bottom: 94px;
+  background-color: var(--white-color);
+}
+.section-work__center {
+  text-align: center;
+}
+.section-work__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+}
+.section-work__list {
+  display: flex;
+  list-style: none;
+}
+.section-work__item {
+  margin-right: 30px;
+  position: relative;
+}
+.section-work__item:last-child {
+  margin-right: 0;
+}
+
+.section-work__item:before {
+  display: inline-block;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.section-work__item:nth-child(1)::before {
+  content: "Десктопні додатки";
+}
+.section-work__item:nth-child(2)::before {
+  content: "Мобільні додатки";
+}
+.section-work__item:nth-child(3)::before {
+  content: "Дизайнерські рішення";
+}
+
+/* ___________________________________END SECTION OF WORK___________________________________ */
