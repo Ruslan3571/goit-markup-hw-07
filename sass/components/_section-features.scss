@@ -3,18 +3,18 @@
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--white-color);
-}
 
-.section-features__titleof {
-  display: none;
-  margin: 0;
-  color: var(--title-text-color);
-}
-.section-features__list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  &__titleof {
+    display: none;
+    margin: 0;
+    color: var(--title-text-color);
+  }
+  &__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 }
 
 .section-features__item:before {
@@ -51,12 +51,11 @@
 
 .section-features__item {
   margin-right: 30px;
-}
 
-.section-features__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
-
 .section-features__title {
   margin: 0;
   margin-bottom: 10px;

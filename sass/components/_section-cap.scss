@@ -17,37 +17,38 @@
     url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
 
-.section-cap__title {
-  width: 696px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
-  color: var(--white-color);
-}
+  &__title {
+    width: 696px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
 
-.section-cap__button {
-  margin: 0;
-  padding: 10px 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.section-cap__button:hover {
-  background: #188ce8;
-  cursor: pointer;
+  &__button {
+    margin: 0;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    &:hover {
+      background: #188ce8;
+      cursor: pointer;
+    }
+  }
 }
 
 /* ________________________________END SECTION OF CAP______________________________ */
