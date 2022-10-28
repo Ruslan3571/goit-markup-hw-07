@@ -8,21 +8,22 @@
   list-style: none;
   position: relative;
   /* overflow: hidden; */
+
+  &__item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+    &:nth-last-child(-n + 3) {
+      margin-bottom: 7px;
+    }
+  }
 }
 
-.section-project__item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  cursor: pointer;
-}
-
-.section-project__item:nth-child(3n) {
-  margin-right: 0;
-}
-.section-project__item:nth-last-child(-n + 3) {
-  margin-bottom: 7px;
-}
-.section-project__url {
+.section-project__item .section-project__url {
   text-decoration: none;
   color: inherit;
 }

@@ -6,6 +6,7 @@
   background-color: var(--white-color);
 
   &__title {
+    margin: 0;
     margin-bottom: 50px;
     font-family: var(--main-font);
     font-style: normal;
@@ -19,6 +20,8 @@
 
   &__list {
     display: flex;
+    margin: 0;
+    padding: 0;
     list-style: none;
     justify-content: center;
   }
@@ -42,6 +45,10 @@
     &:focus {
       fill: var(--accent-color);
       border: 1px solid var(--accent-color);
+    }
+
+    &:last-child{
+      margin-right: 0;
     }
   }
   &__icon {
