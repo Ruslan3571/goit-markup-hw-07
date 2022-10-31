@@ -39,7 +39,7 @@
   width: 100%;
   height: 100%;
   padding: 63px 24px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   transform: translateY(100%);
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -49,7 +49,7 @@
   line-height: 1.56;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .section-project__item:hover,
@@ -78,19 +78,19 @@
   font-size: 18px;
   line-height: 2;
   text-align: left;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .section-project__desc {
   margin: 0;
   margin-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   text-align: left;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 /* __________________________________ END SECTION OF PROJECT _____________________________ */

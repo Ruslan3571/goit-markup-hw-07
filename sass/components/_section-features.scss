@@ -2,12 +2,12 @@
 .section-features {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--white-color);
+  background-color: $white-color;
 
   &__titleof {
     display: none;
     margin: 0;
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
   &__list {
     display: flex;
@@ -65,18 +65,18 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: left;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .section-features__text {
   margin: 0;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 /* ________________________________END SECTION OF FEATURES______________________________ */

@@ -52,7 +52,7 @@
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
-  background: var(--white-color);
+  background: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .icon-close-black {
@@ -63,14 +63,14 @@
 
   &:hover,
   &:focus {
-    fill: var(--accent-color);
+    fill: $accent-color;
     cursor: pointer;
   }
 }
 
 .form-title {
   margin: 0;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -83,12 +83,12 @@
   flex-direction: column;
   position: relative;
   text-align: left;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 .form-field label {
   margin-bottom: 4px;
@@ -104,7 +104,7 @@
   cursor: pointer;
 
   &:focus-visible {
-    outline: 1px solid var(--accent-color);
+    outline: 1px solid $accent-color;
     border-radius: 4px;
   }
 
@@ -142,8 +142,8 @@
 .form-field:focus-within > .icon-person,
 .form-field:focus-within > .icon-phone,
 .form-field:focus-within > .icon-email {
-  border: var(--accent-color);
-  fill: var(--accent-color);
+  border: $accent-color;
+  fill: $accent-color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -157,8 +157,8 @@
   cursor: pointer;
 
   &:focus {
-    outline: 1px solid var(--accent-color);
-    fill: var(--accent-color);
+    outline: 1px solid $accent-color;
+    fill: $accent-color;
   }
 }
 
@@ -174,7 +174,7 @@
   cursor: pointer;
 }
 .url-policy {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .checkbox {
@@ -212,9 +212,9 @@
   background-origin: border-box;
   background-repeat: no-repeat;
   align-items: center;
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  border-color: $accent-color;
+  background-color: $accent-color;
+  fill: $white-color;
 }
 
 .button-submit {
@@ -222,15 +222,15 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px 52px;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white-color);
-  background: var(--accent-color);
+  color: $white-color;
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: inherit;
